@@ -12,9 +12,7 @@ function Colors(){
         <Link to="/colors/new">Add a color</Link>
       </header>
       <div className="colorList">
-        <ul>
-  {colors.map(c => <li><Link to={`/colors/${c}`}>{c}</Link></li>)}
-        </ul>
+  {colors.map(c => <p><Link to={`/colors/${c}`}><h2>{c}</h2></Link></p>)}
       </div>
     </div>
   )

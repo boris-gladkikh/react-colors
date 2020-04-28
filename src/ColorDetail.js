@@ -5,7 +5,7 @@ function ColorDetail(){
   let {color} = useParams();
   let styleBg = {
     backgroundColor:color,
-    height: "100vw",
+    height: "100vh",
     width: "100vw"
     
   }
@@ -15,7 +15,7 @@ function ColorDetail(){
       <h1>Welcome to the world of {color}</h1>
       <h2> Isn't {color} AWESOME? </h2>
       
-      <Link to="/colors">Go Back!</Link>
+      <h3><Link to="/colors">Go Back!</Link></h3>
     </div>
   )
 }

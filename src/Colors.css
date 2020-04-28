@@ -9,15 +9,16 @@ header {
   padding: 10px;
 }
 a {
-  color: rgb(27, 149, 137);
+  color: white;
   text-decoration: none;
+
 }
 
 a.active {
   color: yellow;
 }
 a:hover {
-  color: white;
+  color: limegreen;
 }
 
 
