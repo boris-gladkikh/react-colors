@@ -1,0 +1,27 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+}
+header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+a {
+  color: rgb(27, 149, 137);
+  text-decoration: none;
+}
+
+a.active {
+  color: yellow;
+}
+a:hover {
+  color: white;
+}
+
+
+li {
+  list-style-type: none;
+  color: black;
+}
